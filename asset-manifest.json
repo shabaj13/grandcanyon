@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/grandcanyon/static/css/main.461fd2a3.css",
+    "main.js": "/grandcanyon/static/js/main.18ecc640.js",
+    "static/js/787.6fd03780.chunk.js": "/grandcanyon/static/js/787.6fd03780.chunk.js",
+    "static/media/1.jpg": "/grandcanyon/static/media/1.57cee199689ff2354bcf.jpg",
+    "static/media/2.jpg": "/grandcanyon/static/media/2.467ac2ac7770ba3137ef.jpg",
+    "static/media/3.jpg": "/grandcanyon/static/media/3.64df6f405733aee1fe05.jpg",
+    "static/media/5.jpg": "/grandcanyon/static/media/5.0e75c1c92005f83debd0.jpg",
+    "static/media/6.jpg": "/grandcanyon/static/media/6.f831ad9a4390116a0cad.jpg",
+    "static/media/4.jpg": "/grandcanyon/static/media/4.35f26a527c2335f74e47.jpg",
+    "static/media/developer-team.svg": "/grandcanyon/static/media/developer-team.085c60f47210fb24940a3da361891c46.svg",
+    "static/media/officeworkplace.svg": "/grandcanyon/static/media/officeworkplace.31b3208e89d77054a2de288687e6396d.svg",
+    "index.html": "/grandcanyon/index.html",
+    "static/media/list.svg": "/grandcanyon/static/media/list.f49ca9cde570403631356d6a85c8cd09.svg",
+    "static/media/close.svg": "/grandcanyon/static/media/close.49ba6b16c4e11db067288bd382719aa4.svg",
+    "main.461fd2a3.css.map": "/grandcanyon/static/css/main.461fd2a3.css.map",
+    "main.18ecc640.js.map": "/grandcanyon/static/js/main.18ecc640.js.map",
+    "787.6fd03780.chunk.js.map": "/grandcanyon/static/js/787.6fd03780.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.461fd2a3.css",
+    "static/js/main.18ecc640.js"
+  ]
+}
