@@ -1,0 +1,44 @@
+.service{
+  width: 100%;
+  height: fit-content;
+  margin: 30px 0;
+}
+.serviceContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 12%;
+}
+.headingDiv{
+  text-align: center;
+  padding: 10px 0;
+}
+.serviceHeading{
+  font-size: 28px;
+  color: #222;
+}
+
+.cardDiv{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px 20px;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .serviceContent{
+    margin: 0 2%;
+  }
+  .serviceHeading{
+    font-size: 24px;
+  }
+  .cardDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

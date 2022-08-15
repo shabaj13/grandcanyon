@@ -1,0 +1,44 @@
+
+.card{
+  height: fit-content;
+  width: 330px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.card:hover{
+  transform: translateY(-5px);
+}
+.cardImg{
+  width: 100%;
+  height: 200px;
+}
+.cardDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 8px;
+  
+}
+.cardTitle{
+  font-size: 18px;
+  color: #222;
+  font-weight: 600;
+}
+.cardText{
+  font-size: 11px;
+  padding: 10px 0;
+}
+.serviceBtn{
+  text-decoration: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  margin-bottom: 5px;
+  border: 1px solid cornflowerblue;
+  color: cornflowerblue;
+  font-size: 13px;
+}
+.serviceBtn:hover{
+  background-color: cornflowerblue;
+  color: #fff;
+}

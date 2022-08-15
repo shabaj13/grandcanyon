@@ -1,0 +1,85 @@
+.home{
+  width:100%;
+}
+.homeContent{
+display: flex;
+justify-content: space-between;
+margin: 0 12%;
+}
+.homeContentLeft{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.homeContentLeft .text1{
+  font-size: 32px;
+  font-weight: 600;
+  color: #222;
+}
+.homeContentLeft .text2{
+  font-size: 34px;
+  font-weight: 600;
+  color: cornflowerblue;
+  line-height: 35px;
+}
+.homeContentLeft .text3{
+  margin: 25px 0 15px 0;
+  color: #222;
+}
+.homeContentLeft .btnGo{
+  text-decoration: none;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: 2px solid cornflowerblue;
+  color: cornflowerblue;
+  transition: .3s;
+}
+.homeContentLeft .btnGo:hover{
+  color: #fff;
+  background-color: cornflowerblue;
+}
+
+.homeContentRight{
+  display: flex;
+  justify-content: center;
+}
+.homeImg{
+  width: 400px;
+  height: 600px;
+  animation: updown 3s linear infinite alternate-reverse both;
+}
+
+@keyframes updown {
+  from{
+    transform: translateY(-10px);
+  }
+  to{
+    transform: translateY(10px);
+  }
+  
+}
+
+
+@media screen and (max-width: 768px){
+  .home{
+    padding-bottom: 30px;
+  }
+  .homeContent{
+    margin: 0 2%;
+    flex-direction: column-reverse;
+  }
+  .homeImg{
+    width: 300px;
+    height: 300px;
+  }
+  .homeContentLeft .text1{
+    font-size: 26px;
+  }
+  .homeContentLeft .text2{
+    font-size: 28px;
+  }
+  .homeContentLeft .btnGo{
+    padding: 3px 10px;
+  }
+}

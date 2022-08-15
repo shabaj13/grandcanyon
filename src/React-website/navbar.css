@@ -1,0 +1,81 @@
+.navbar{
+  width: 100%;
+  height: 40px; 
+}
+.navContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 12%;
+}
+.nameDiv .websiteName{
+  font-size: 28px;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.menuDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navOpt{
+  text-decoration: none;
+  color: #222;
+  padding: 5px;
+  margin-right: 3px ;
+}
+.navOpt:last-child{
+  margin-right: 0 ;
+}
+.navOpt:hover{
+  color: cornflowerblue;
+}
+.active{
+  font-size: 18px;
+  color: cornflowerblue;
+  border-bottom: 2px solid cornflowerblue;
+}
+
+.menuImg{
+  height: 30px;
+  display: none;
+}
+
+
+@media screen and (max-width: 768px){
+  .menuImg{
+    display: block;
+  }
+  .menuName{
+    display: none;
+  }
+  .navContent{
+    margin: 0 2%;
+  }
+  
+  .menulist{
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    top: 7%;
+    z-index: 1;
+  }
+  .navOpt{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+  }
+}
